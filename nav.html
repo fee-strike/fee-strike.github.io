@@ -1,20 +1,42 @@
 <nav>
     <div id=main-nav-outer-container>
         <div id=main-nav-container>
-            <a href=/#why>Varför biljettstrejka?</a>
-            <a href=/#faq>FAQ</a>
-            <a href=/form>Anmäl bot</a>
-            <a href=https://www.mittskifte.org/petitions/biljettstrejka-for-billigare-sl-kort target=_blank>Skriv på namninsamling</a>
-            <a href=/#contact>Kontakt</a>
-            <a href=/en>English</a>
+            <a class=secondary-button href=/form>Anmäl bot</a>
+            <a class=secondary-button href=/#help-out>Hjälp till</a>
+            <select name=language-desktop id=language-desktop>
+                <option value=svenska selected>Sv 🇸🇪</option>
+                <option value=english>En 🇬🇧</option>
+            </select>
         </div>
     </div>
-    <div aria-hidden=true id=left-flex></div>
+    <div id=hamburger-outer-container>
+        <div id=hamburger-container>
+            <a href=/#why>Varför biljettstrejka?</a>
+            <a href=/#faq>FAQ</a>
+            <a href=https://www.mittskifte.org/petitions/biljettstrejka-for-billigare-sl-kort target=_blank>Namninsamling</a>
+            <a href=/#contact>Kontakt</a>
+        </div>
+    </div>
+
+    <div id=mobile-outer-container>
+        <div id=mobile-container>
+            <a href=/form>Anmäl bot</a>
+            <a href=/#help-out>Hjälp till</a>
+            <a href=/#why>Varför biljettstrejka?</a>
+            <a href=/#faq>FAQ</a>
+            <a href=https://www.mittskifte.org/petitions/biljettstrejka-for-billigare-sl-kort target=_blank>Namninsamling</a>
+            <a href=/#contact>Kontakt</a>
+            <select name=language-mobile id=language-mobile>
+                <option value=svenska selected>Sv 🇸🇪</option>
+                <option value=english>En 🇬🇧</option>
+            </select>
+        </div>
+    </div>
+
     <a href=/#start><img id=logo src=/logo_v2.f36034cb.svg alt=startsida></a>
-    <div aria-hidden=true></div>
     <a id=join-button href=/#join>Gå med</a>
-    
-    <button id=hamburger>
+
+    <button id=hamburger aria-label=meny>
         <div></div>
         <div></div>
         <div></div>
